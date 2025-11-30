@@ -21,7 +21,7 @@ Built with pure **HTML, CSS, JavaScript** and secured using **Vercel Serverless 
 **Frontend**  
 - HTML  
 - CSS  
-- Vanilla JavaScript  
+- JavaScript  
 
 **Backend / Security**  
 - Vercel Serverless Function  
@@ -53,7 +53,7 @@ GET /api/news?q=yourQuery
 
 The serverless function reads the API key from environment variables:
 
-```js
+
 process.env.API_KEY
 This ensures your key is never visible in the frontend code.
 
@@ -68,5 +68,3 @@ MIT License — free to use, modify, and distribute.
 ⭐ Support
 If you like the project, consider giving it a star ⭐ on GitHub.
 
-yaml
-Copy code
